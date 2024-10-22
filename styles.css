@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.product-card {
+  display: flex;
+  background-color: #fff;
+  color: black;
+  width: 800px;
+  height: 500px;
+  margin-top: 120px;
+}
+
+.left-img-col {
+  flex: 1;
+}
+
+.left-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-info-col {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 18px;
+  color: lightgray;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.available-colors {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.available-colors span {
+  font-size: 14px;
+  color: black;
+}
+
+.black-color-container,
+.red-color-container,
+.beige-color-container {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.beige-color-container {
+  background-color: beige;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price h4 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.buy-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.buy-btn:hover {
+  background-color: #444;
+}
